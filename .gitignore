@@ -1,0 +1,45 @@
+用文本编辑器如editplus或notepad++输入需要忽略的文件或文件名，如下所示：
+
+##ignore this file##
+/target/ 
+flask/
+db_repository/
+
+.classpath
+.project
+.settings
+.pyc   
+ ##filter databfile、sln file##
+*.mdb
+*.pyc
+*.json
+*.ldb  
+*.sln    
+##class file##
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so  
+# compression file
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+*.zip  
+*.via
+*.tmp
+*.err 
+# OS generated files #  
+.DS_Store  
+.DS_Store?  
+._*  
+.Spotlight-V100  
+.Trashes  
+Icon?  
+ehthumbs.db  
+Thumbs.db
