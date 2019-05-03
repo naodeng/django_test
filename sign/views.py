@@ -6,6 +6,9 @@ def index(request):
     #return HttpResponse('Hello django!')
     return render(request, 'index.html')
 
+# 添加首页
+def homepage(request):
+    return render(request, "index.html")
 
 #  登录动作
 def login_action(request):

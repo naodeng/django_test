@@ -17,11 +17,16 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
 from django.views.generic.base import RedirectView
+from django.conf.urls import include, url
 from sign import views   # 导入sign应用view文件
+from sign import views
+admin.autodiscover()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^index/$', views.index),    # 添加index/路径配置
     url(r'^login_action/$', views.login_action),
     path(r'^favicon.ico$', RedirectView.as_view(url=r'static/favicon.ico')),
+    url(r'^admin/', admin.site.urls),
+    url(r'^$',views.homepage),
 ]
