@@ -1,0 +1,77 @@
+.bug-mng-formtitle {
+    width: 100px;
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.bug-mng-formtitle .form-group {
+    margin-bottom: 10px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid #4492C9 1px;
+    outline: 0;
+}
+
+.bug-mng-form {
+    padding: 20px;
+    margin: 0;
+}
+
+.bug-mng-form .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bug-mng-form select,
+.bug-mng-form input {
+    width: 70%;
+    min-width: 200px;
+}
+
+.bug-mng-form .select2-container {
+    min-width: 200px;
+    /*margin-bottom: 10px;*/
+}
+
+.bug-mng-form .start-datetime,
+.bug-mng-form .end-datetime {
+    min-width: 200px;
+}
+
+.bug-mng-form .operate-btn {
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+
+.bug-mng-form .showmore-btn,
+.bug-mng-form .query-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.bug-mng-form .showmore-text,
+.bug-mng-form .showmore-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bug-mng-form .showmore-text {
+    margin-right: 5px;
+}
+
+.bug-mng-form .filter-advanced,
+.bug-mng-form .showmore-icon-down {
+    display: none;
+}
+
+.bug-mng-form .showmore-icon-up {
+    display: inline-block;
+}
